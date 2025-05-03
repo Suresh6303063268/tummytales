@@ -1,0 +1,163 @@
+/* Carousel container styling */
+
+.Women{
+    overflow: hidden;
+    background-color: #fefefe;
+}
+
+.Mom{
+    display: flex;
+    margin: 30px;
+    gap: 30px;
+}
+
+.Ask-mom2{
+   width: 500px;
+   margin-top: 100px;
+
+   h3{
+    color: rgb(207, 70, 70);
+    font-size: 25px;
+   }
+
+   p{
+    line-height: 2.5;
+    font-size: 20px;
+   }
+button{
+    width: 200px;
+    border-radius: 15px;
+    height: 40px;
+    color: rgb(243, 243, 247);
+    background-color: orange;
+    border: none;
+    font-size: 18px;
+}
+button:hover{
+    background-color: rgb(0, 149, 255);
+}
+   
+}
+
+.Ask-mom1 img{
+    width: 900px;
+    margin-top: 100px;
+    height: 450px;
+    filter: brightness(110%);
+    border-radius: 50px;
+ }
+
+ /* Mobile View Responsive Code */
+
+ 
+/* Mobile View Responsive */
+@media screen and (max-width: 578.95px) {
+
+    
+.Women{
+    overflow: hidden;
+    background-color: #fefefe;
+}
+
+.Mom{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    gap: 30px;
+}
+
+.Ask-mom2{
+   width: 100%;
+   margin-top: 100px;
+
+   h3{
+    color: rgb(207, 70, 70);
+    font-size: 25px;
+   }
+
+   p{
+    line-height: 2.5;
+    font-size: 20px;
+   }
+button{
+    width: 200px;
+    border-radius: 15px;
+    height: 40px;
+    color: rgb(243, 243, 247);
+    background-color: orange;
+    border: none;
+    font-size: 18px;
+}
+button:hover{
+    background-color: rgb(0, 149, 255);
+}
+   
+}
+
+.Ask-mom1 img{
+    width: 100%;
+    margin-top: 100px;
+    height: 450px;
+    filter: brightness(110%);
+    border-radius: 50px;
+ }
+
+}
+
+
+
+/* Tab View Responsive */
+@media screen and (max-width: 991.95px) {
+
+    
+    .Women{
+        overflow: hidden;
+        background-color: #fefefe;
+    }
+    
+    .Mom{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        gap: 30px;
+    }
+    
+    .Ask-mom2{
+       width: 100%;
+       margin-top: 100px;
+    
+       h3{
+        color: rgb(207, 70, 70);
+        font-size: 25px;
+       }
+    
+       p{
+        line-height: 2.5;
+        font-size: 20px;
+       }
+    button{
+        width: 200px;
+        border-radius: 15px;
+        height: 40px;
+        color: rgb(243, 243, 247);
+        background-color: orange;
+        border: none;
+        font-size: 18px;
+    }
+    button:hover{
+        background-color: rgb(0, 149, 255);
+    }
+       
+    }
+    
+    .Ask-mom1 img{
+        width: 100%;
+        margin-top: 100px;
+        height: 450px;
+        filter: brightness(110%);
+        border-radius: 50px;
+     }
+    
+    }
+    
+    
