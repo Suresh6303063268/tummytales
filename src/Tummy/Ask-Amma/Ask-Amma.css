@@ -5,10 +5,10 @@
     background-color: #fefefe;
 }
 
-.Mom{
+.Ask-Mom{
     display: flex;
     margin: 30px;
-    gap: 30px;
+    gap: 80px;
 }
 
 .Ask-mom2{
@@ -40,11 +40,11 @@ button:hover{
 }
 
 .Ask-mom1 img{
-    width: 900px;
+    width:700px;
     margin-top: 100px;
-    height: 450px;
+    height:480px;
     filter: brightness(110%);
-    border-radius: 50px;
+    border-radius:10px;
  }
 
  /* Mobile View Responsive Code */
@@ -59,7 +59,7 @@ button:hover{
     background-color: #fefefe;
 }
 
-.Mom{
+.Ask-Mom{
     display: flex;
     flex-direction: column;
     margin: 30px;
@@ -99,7 +99,7 @@ button:hover{
     margin-top: 100px;
     height: 450px;
     filter: brightness(110%);
-    border-radius: 50px;
+    border-radius:10px !important;
  }
 
 }
@@ -115,7 +115,7 @@ button:hover{
         background-color: #fefefe;
     }
     
-    .Mom{
+    .Ask-Mom{
         display: flex;
         flex-direction: column;
         margin: 30px;

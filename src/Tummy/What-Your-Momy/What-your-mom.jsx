@@ -10,7 +10,13 @@ import './What-your-mom.css';
 
 import Thali from '../../Images/thali.png';
 
-
+import float from '../../Images/float.jpg';
+import food from '../../Images/food.jpg';
+import Proten from '../../Images/proton.jpg';
+import iron from '../../Images/iron.jpg';
+import food2 from '../../Images/food2.jpg';
+import meal1 from '../../Images/meal1.jpg';
+import meal from '../../Images/meal.jpg';
 
 
 
@@ -50,7 +56,9 @@ function Home() {
         <h2>Thali Tales</h2>
         <div className='Hear-Mom-Content'>
           <div className='Hear1'>
+           
             <h3>Folate and Fiber</h3>
+            <img src={float} alt=""/>
             <p>
             Whole Grains: Brown rice, whole wheat roti, jowar, and bajra provide fiber and essential vitamins.</p>
             <p>Beets, Oranges & Citrus Fruits: Rich in folate, Vitamin C, and antioxidants.</p>
@@ -58,14 +66,18 @@ function Home() {
           </div>
 
           <div className='Hear1'>
+         
             <h3>Protein</h3>
+            <img src={Proten} alt=""/>
             <p>Lentils (Dal): Packed with protein, fiber, and iron, lentils help prevent constipation and anemia.
             </p>
             <p>Chickpeas (Chana) & Kidney Beans (Rajma): Excellent plant-based protein sources that support muscle and tissue development.</p>
           </div>
 
           <div className='Hear1'>
+         
             <h3>Calcium and Iron</h3>
+            <img src={iron} alt=""/>
             <p>
             Leafy Greens: Spinach (Palak), Fenugreek (Methi), and Drumstick Leaves (Moringa) are loaded with iron and folic acid.
             </p>
@@ -76,7 +88,9 @@ Dairy Products: Yogurt (Dahi), Milk, and Buttermilk (Chaas) are excellent source
           </div>
 
           <div className='Hear1'>
+       
             <h3>Daily Meal Plan</h3>
+            <img src={food} alt=""/>
             <p>
             Kitchen to Table: Nourish, Savor, Thrive!
             Discover delicious, fresh recipes tailored to your dietary needs and nutritional goals. Enjoy meals that satisfy your cravings while keeping you healthy—one thoughtfully curated dish at a time.
@@ -92,6 +106,7 @@ Dairy Products: Yogurt (Dahi), Milk, and Buttermilk (Chaas) are excellent source
         <div className='Hear-Mom-Content'>
           <div className='Hear1'>
             <h3>Foods That May Induce Contractions</h3>
+            <img src={meal} alt=""/>
             <p><li>Ajwain (Carom Seeds) & Fenugreek (Methi) Seeds: Used post-delivery for lactation but should be limited in early pregnancy as they may stimulate contractions.</li></p>
             <p><li>Excessive Spicy Foods: Overly spicy dishes can cause acidity, heartburn, and discomfort.</li>
             </p>
@@ -99,6 +114,7 @@ Dairy Products: Yogurt (Dahi), Milk, and Buttermilk (Chaas) are excellent source
 
           <div className='Hear1'>
             <h3>Unpasteurized Dairy & Soft Cheeses</h3>
+            <img src={meal1} alt=""/>
             <p> <li>Unpasteurized milk & soft cheeses (Paneer, Brie, Feta, Blue Cheese): May contain harmful bacteria like listeria, which can lead to infections. Always opt for pasteurized dairy products.</li>
            
             </p>
@@ -106,6 +122,7 @@ Dairy Products: Yogurt (Dahi), Milk, and Buttermilk (Chaas) are excellent source
 
           <div className='Hear1'>
             <h3>Caffeinated & Sugary Drinks</h3>
+            <img src={food2} alt=""/>
             <p><li>Tea & Coffee: High caffeine intake (over 200mg per day) may increase the risk of miscarriage. Limit to one small cup per day.</li>
             
             </p>

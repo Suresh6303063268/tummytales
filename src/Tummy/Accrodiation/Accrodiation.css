@@ -18,9 +18,10 @@
   }
   
   .panel {
-    padding: 0 18px;
+    padding: 0 10px;
     background-color: rgb(65, 210, 130);
     overflow: hidden;
+    width: 100%;
     transition: max-height 0.2s ease-out;
   }
   

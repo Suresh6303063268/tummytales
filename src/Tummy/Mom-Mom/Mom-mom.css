@@ -4,7 +4,7 @@
     overflow-x: hidden;
   }
   
-  .Mom {
+  .Mom-mom {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,73 +12,78 @@
     gap: 50px;
   }
   
-  .Mom1 {
+  .Mom-Mom1 {
     flex: 1;
   }
   
-  .Mom1 h3 {
-    font-size: 38px;
+  .Mom-Mom1 h3 {
+    font-size: 28px;
     color: rgb(207, 70, 70);
     margin-bottom: 20px;
   }
   
-  .Mom1 p {
-    font-size: 20px;
+  .Mom-Mom1 p {
+    font-size: 18px;
     line-height: 1.8;
     margin-bottom: 30px;
   }
   
-  .Mom1 button {
+  .Mom-Mom1 button {
     width: 220px;
     height: 45px;
     border: none;
     border-radius: 15px;
     font-size: 18px;
     color: #fff;
-    background-color: orange;
+    background-color: rgb(160, 119, 45);
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
   
-  .Mom1 button:hover {
+  .Mom-Mom1 button:hover {
     background-color: rgb(0, 149, 255);
   }
   
-  .Mom2 {
+  .Mom-Mom2 {
     flex: 1;
   }
   
-  .Mom2 img {
+  .Mom-Mom2 img {
     width: 100%;
-    max-width: 500px;
-    height: auto;
-    border-radius: 30px;
+    max-width: 900px;
+    height:500px;
+    margin-top: 100px;
+    max-height: 600px;
+    border-radius: 10px;
+
+    border-radius:10px;
     filter: brightness(110%);
   }
   
   /* ======= Tablet View (579px – 1024px) ======= */
   @media screen and (min-width: 579px) and (max-width: 1024px) {
-    .Mom {
+    .Mom-mom {
       flex-direction: column;
       padding: 40px 40px;
       gap: 40px;
+      margin-top: 40px;
     }
   
-    .Mom1 h3 {
-      font-size: 30px;
+    .Mom-Mom1 h3 {
+      font-size:25px;
     }
   
-    .Mom1 p {
+    .Mom-Mom1 p {
       font-size: 18px;
     }
   
-    .Mom1 button {
+    .Mom-Mom1 button {
       width: 200px;
       height: 42px;
       font-size: 16px;
     }
   
-    .Mom2 img {
+    .Mom-Mom2 img {
         width: 100%;
         height: auto;
         margin: 10px auto;
@@ -89,39 +94,40 @@
   
   /* ======= Mobile View (up to 578.95px) ======= */
   @media screen and (max-width: 578.95px) {
-    .Mom {
+    .Mom-mom {
       flex-direction: column;
       padding: 30px 20px;
       gap: 30px;
     }
   
-    .Mom1 {
+    .Mom-Mom1 {
         width: 100%;
-        margin-top: 20px;
+        margin-top: 70px;
         max-width: 280px;
         margin-left: auto;
         margin-right: auto; 
     }
   
-    .Mom1 h3 {
-      font-size: 24px;
+    .Mom-Mom1 h3 {
+      font-size: 20px;
       color: rgb(207, 70, 70);
     }
   
-    .Mom1 p {
+    .Mom-Mom1 p {
       line-height: 1.7;
       font-size: 16px;
+      text-align: justify;
     }
   
-    .Mom1 button {
+    .Mom-Mom1 button {
       width: 180px;
       height: 40px;
       font-size: 16px;
     }
   
-    .Mom2 img {
+    .Mom-Mom2 img {
         width: 100%;
-    height: auto;
+    height: 300px;
     margin: 20px auto;
     border-radius: 20px;
     display: block;

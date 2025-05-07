@@ -1,12 +1,49 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Footer.css';
 import { FaFacebookF, FaTwitter, FaWhatsapp, FaPinterestP } from 'react-icons/fa';
+import { FaArrowUp, FaArrowDown } from 'react-icons/fa';
+import { FaSquareWhatsapp } from "react-icons/fa6";
 import { MdEmail } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 
 import Prgent from '../../Images/Pregent.png';
 
 const Footer = () => {
+
+  const [isUp, setIsUp] = useState(true);
+
+
+
+
+
+
+
+  const openWhatsApp = () => {
+    const phoneNumber = "6303063268";
+    const message = "Thank you for contacting";
+    const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+    window.open(whatsappURL, '_blank');
+  };
+
+  const handleClick = () => {
+    if (isUp) {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      window.scrollTo({ top: document.documentElement.scrollHeight, behavior: 'smooth' });
+    }
+    setIsUp(!isUp);
+  };
+
+
+
+
+
+
+
+
+
+
+
   return (
     <footer className="footer">
       <div className="footer-container">
@@ -46,16 +83,21 @@ Let’s break it down.
             <button>→</button>
           </div>
           <div className="social-icons">
-            <FaFacebookF />
-            <FaTwitter />
-            <FaWhatsapp />
-            <FaPinterestP />
+            <FaFacebookF className='icon' />
+            <FaTwitter className='icon'/>
+            <FaWhatsapp  className='icon'/>
+            <FaPinterestP  className='icon'/>
           </div>
         </div>
       </div>
 
       <hr />
       <p className="copyright">design By Suresh Ampavilli  © 2025 - All Rights Reserved</p>
+
+      <div className='Wtsap_icon' onClick={openWhatsApp}><FaSquareWhatsapp  className='icon'/></div>
+    <div className='Arrow_icon' onClick={handleClick}>
+      {isUp ? <FaArrowUp className='icon' /> : <FaArrowDown className='icon' />}
+    </div>
     </footer>
   );
 };

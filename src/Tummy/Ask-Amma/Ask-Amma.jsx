@@ -22,7 +22,7 @@ function Home() {
 
      
       {/* Hear From Moms Section */}
-      <div className='Mom'>
+      <div className='Ask-Mom'>
         <div className='Ask-mom1'>
         <img src={Pregent13} alt=""/>
         </div>

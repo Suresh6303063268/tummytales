@@ -1,0 +1,21 @@
+.wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+  }
+  
+  .main-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+  

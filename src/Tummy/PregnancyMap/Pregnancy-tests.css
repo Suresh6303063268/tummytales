@@ -8,7 +8,8 @@
 .Mom{
     display: flex;
     margin: 30px;
-    gap: 30px;
+    gap: 60px;
+   
 }
 
 .Mom1{
@@ -29,7 +30,7 @@ button{
     border-radius: 15px;
     height: 40px;
     color: rgb(243, 243, 247);
-    background-color: orange;
+    background-color: rgb(153, 119, 57);
     border: none;
     font-size: 18px;
 }
@@ -40,11 +41,11 @@ button:hover{
 }
 
 .Mom2 img{
-    width: 900px;
+    width: 1200px;
     margin-top: 100px;
     height: 400px;
     filter: brightness(110%);
-    border-radius: 50px;
+    border-radius:10px;
  }
 
 
@@ -57,9 +58,10 @@ button:hover{
   }
   
   .Hear-Test h2 {
-    font-size: 2rem;
-    color: #2eaab5;
+    font-size: 20px;
+    color: #ecc70b !important;
     margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
   }
   
@@ -74,11 +76,11 @@ button:hover{
   .Test1,
   .test1,
   .test2 {
-    background-color: #d7be8d;
-    border-radius:50px;
+    background-color: #28657d !important;
+    border-radius:10px !important;
     padding: 20px;
     width: 400px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 15px 20px #f6be07 !important;
     text-align: left;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
@@ -104,14 +106,14 @@ button:hover{
   .test2 h3 {
     font-size: 1.2rem;
     margin-top: 15px;
-    color: #0077b6;
+    color: #f6be07 !important;
   }
   
   .Test1 p,
   .test1 p,
   .test2 p {
     font-size: 0.95rem;
-    color: #555;
+    color: #faf6f6 !important;
     margin-top: 10px;
     line-height: 2;
   }
@@ -149,7 +151,7 @@ button:hover{
   
   
   /* Responsive Design */
-  @media (max-width: 768px) {
+  @media (max-width:576.98px) {
     .Hear-Mom-Test {
       flex-direction: column;
       align-items: center;
@@ -160,5 +162,156 @@ button:hover{
     .test2 {
       width: 90%;
     }
+
+
+    .Test1 img,
+    .test1 img,
+    .test2 img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      filter: brightness(110%);
+    }
+
+
+    .Test1,
+    .test1,
+    .test2 {
+      max-width: 90%;
+      padding: 15px;
+      margin: 0px auto;
+    }
+    
+
+    .Hear-Test h2 {
+      font-size: 20px !important;
+      color: #968323 !important;
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+
+    .Mom2 img{
+      width: 100%;
+      margin-top: 10px;
+      height: 250px !important;
+      margin: 20px !important;
+      filter: brightness(110%);
+      border-radius: 50px;
+   }
+  
+    
+.Mom1{
+  width: 500px;
+  margin-top: 100px;
+
+  h3{
+   color: rgb(207, 70, 70);
+   font-size: 18px !important;
+  }
+
+  p{
+   line-height: 2.5;
+   font-size: 12px !important;
+  }
+button{
+   width: 150px !important;
+   border-radius: 15px;
+   height: 40px;
+   color: rgb(243, 243, 247);
+   background-color: rgb(153, 119, 57);
+   border: none;
+   font-size: 15px !important;
+}
+button:hover{
+   background-color: rgb(0, 149, 255);
+}
+  
+}
+
+
+
+
+  }
+
+
+  /* Tab View Responsive Code */
+
+  
+  @media (min-width: 576px) and (max-width: 991.98px) {
+
+
+
+
+
+    .Hear-Test {
+      padding: 40px 20px;
+      background-color: #f9f3f4;
+      text-align: center;
+      
+    }
+    
+    .Hear-Test h2 {
+      font-size: 2rem;
+      color: #968323 !important;
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+    
+    .Hear-Mom-Test {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 50px;
+      margin-top: 50px;
+    }
+    
+    .Test1,
+    .test1,
+    .test2 {
+      background-color: #28657d !important;
+      border-radius:50px;
+      padding: 20px;
+      width:100% !important;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: left;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .Test1:hover,
+    .test1:hover,
+    .test2:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    }
+    
+    .Test1 img,
+    .test1 img,
+    .test2 img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      filter: brightness(110%);
+    }
+    
+    .Test1 h3,
+    .test1 h3,
+    .test2 h3 {
+      font-size: 1.2rem;
+      margin-top: 15px;
+      color: #fdfdfe !important;
+    }
+    
+    .Test1 p,
+    .test1 p,
+    .test2 p {
+      font-size: 0.95rem;
+      color: #faf6f6 !important;
+      margin-top: 10px;
+      line-height: 2;
+    }
+  
+
+
+
   }
   

@@ -8,13 +8,13 @@
 .Mom{
     display: flex;
     margin: 30px;
-    gap: 30px;
+    gap: 130px;
 }
 
 .Mom1{
    width: 500px;
    margin-top: 100px;
-
+margin-left: 100px;
    h3{
     color: rgb(207, 70, 70);
     font-size: 25px;
@@ -26,10 +26,11 @@
    }
 button{
     width: 200px;
-    border-radius: 15px;
+    border-radius:5px;
     height: 40px;
     color: rgb(243, 243, 247);
     background-color: orange;
+    box-shadow: 10px 15px 20px rgb(189, 128, 22);
     border: none;
     font-size: 18px;
 }
@@ -40,8 +41,8 @@ button:hover{
 }
 
 .Mom2 img{
-    width: 800px;
-    margin-top: 100px;
+    width: 500px;
+    margin-top: 140px;
     height: 450px;
     filter: brightness(110%);
     border-radius: 50px;
@@ -82,6 +83,42 @@ button:hover{
     text-align: left;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
+
+
+  .Hear1 {
+    background-color: #edeac1;
+    border-radius: 16px;
+    padding: 2rem;
+    max-width: 350px;
+    margin: 2rem auto;
+    box-shadow: 0 8px 20px rgba(255, 182, 193, 0.2);
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  
+  .Hear1 img {
+    width: 320px;
+    height: 380px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+    filter: brightness(110%);
+    border-radius: 10px;
+  }
+  
+  .Hear1 h3 {
+    color: #d6336c;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  
+  .Hear1 p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 0.5rem 0;
+  }
+  
   
   .Test1:hover,
   .test1:hover,
@@ -132,21 +169,10 @@ margin-top: 30px;
   }
   
   /* Responsive Design */
-  @media (max-width: 768px) {
-    .Hear-Mom-Test {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .Test1,
-    .test1,
-    .test2 {
-      width: 90%;
-    }
-  }
+
   
 
-  @media (max-width:578.98pcx) {
+  @media (max-width:578.98px) {
 
     .Women{
         overflow: hidden;
@@ -155,13 +181,15 @@ margin-top: 30px;
     
     .Mom{
         display: flex;
+        flex-direction: column;
         margin: 30px;
         gap: 30px;
     }
     
     .Mom1{
-       width: 500px;
+       width:100%;
        margin-top: 100px;
+       margin-left: -5px;
     
        h3{
         color: rgb(207, 70, 70);
@@ -188,12 +216,12 @@ margin-top: 30px;
     }
     
     .Mom2 img{
-        width: 100%;
-        height: auto;
-        margin: 20px auto;
-        border-radius: 20px;
-        display: block;
-        max-width: 280px;
+      width: 100%;
+      height: auto;
+      margin:0px !important;
+      border-radius: 20px;
+      display: block;
+     
      }
     
     
@@ -281,3 +309,142 @@ margin-top: 30px;
       }
   }
   
+
+  /* tab view responsive code */
+
+  @media (min-width: 576px) and (max-width: 991.98px) {
+
+
+    .Women{
+      overflow: hidden;
+      background-color: #fefefe;
+  }
+  
+  .Mom{
+      display: flex;
+      flex-direction: column;
+      margin: 30px;
+      gap: 30px;
+  }
+  
+  .Mom1{
+     width: 100%;
+     margin-top: 100px;
+     margin-left:0px;
+     h3{
+      color: rgb(207, 70, 70);
+      font-size: 25px;
+     }
+  
+     p{
+      line-height: 2.5;
+      font-size: 20px;
+     }
+  button{
+      width: 200px;
+      border-radius: 15px;
+      height: 40px;
+      color: rgb(243, 243, 247);
+      background-color: orange;
+      border: none;
+      font-size: 18px;
+  }
+  button:hover{
+      background-color: rgb(0, 149, 255);
+  }
+     
+  }
+  
+  .Mom2 img{
+    width: 100%;
+    height: auto;
+    margin:0px !important;
+    border-radius: 20px;
+    display: block;
+  
+   }
+  
+  
+  
+   .Hear-Test {
+      padding: 40px 20px;
+      background-color: #f9f3f4;
+      text-align: center;
+      
+    }
+    
+    .Hear-Test h2 {
+      font-size: 2rem;
+      color: #2eaab5;
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+    
+    .Hear-Mom-Test {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 50px;
+      margin-top: 50px;
+    }
+    
+    .Test1,
+    .test1,
+    .test2 {
+      background-color: #d7be8d;
+      border-radius:50px;
+      padding: 20px;
+      width: 400px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: left;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .Test1:hover,
+    .test1:hover,
+    .test2:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    }
+    
+    .Test1 img,
+    .test1 img,
+    .test2 img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      filter: brightness(110%);
+    }
+    
+    .Test1 h3,
+    .test1 h3,
+    .test2 h3 {
+      font-size: 1.2rem;
+      margin-top: 15px;
+      color: #0077b6;
+    }
+    
+    .Test1 p,
+    .test1 p,
+    .test2 p {
+      font-size: 0.95rem;
+      color: #555;
+      margin-top: 10px;
+      line-height: 2;
+    }
+  
+    .margue-icon{
+      color: #0077b6;
+      font-size: 40px;
+    }
+  
+    marquee span{
+      color: red;
+      font-size: 25px;
+  
+    }
+  
+    marquee {
+  margin-top: 30px;
+    }
+  }
